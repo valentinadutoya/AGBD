@@ -23,3 +23,9 @@ ORDER by BillingState DESC
 
 
 /*6*/
+SELECT Title FROM albums
+WHERE Title like "OF"
+ORDER by Title ASC
+
+/*7*/
+
