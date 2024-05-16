@@ -4,4 +4,5 @@
 -- alfabético y no debe haber repetidos
 
 SELECT DISTINCT type FROM crime_scene_report
+WHERE city like '%SQL City'
 ORDER by type ASC
